@@ -1,0 +1,97 @@
+body,html{
+    font-weight: 300;
+    font-family: "Roboto", sans-serif
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.i{
+    background-image: url('./developer.png');
+    min-height: 104vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.center{
+    max-width: 900px;
+    margin: 0 auto;
+    color: white;
+    /* padding: 45px; */
+    padding-top: 90px;
+    padding-left: 16px;
+}
+.hi{
+    font-size: 66px;
+    font-weight: 400;
+}
+.centerh2{
+    margin-top: 10px;
+}
+.sec{
+    background-color: black;
+    color: white;
+    font-size: 56px;
+    height: 92px;
+    padding: 34px;
+    text-align: center;
+}
+.three{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    max-width: 1100px;
+    margin: 50px auto;
+}
+.grid{    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px;
+    
+}
+.img1{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgb(1 1 1 / 20%);
+    transition: 0.2s ease-in-out;
+}
+.img1:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgb(1 1 1 / 20%);
+    transition: 0.2s ease-in-out;
+}
+.web{
+    margin: 25px;
+}
+.l{
+    display: flex;
+    flex-direction: row;
+
+}
+.l3,.l2{
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+}
+.l3{
+    background-color: green;
+    
+}
+.l2{
+    background-color:brown;
+    
+}
+h2{
+    font-size: 48px;
+    margin-bottom: 24px;
+    margin-top: -6px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 5px;
+    text-align: center;
+    padding: 30px;
+}
